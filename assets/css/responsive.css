@@ -1,0 +1,331 @@
+/* Responsive CSS Here */
+@media screen and (max-width: 950px) {
+    .nav-img {
+        height: 25px;
+    }
+    .nav-option {
+        gap: 30px;
+    }
+    .nav-option h3 {
+        font-size: 15px;
+    }
+    .report-topic-heading,
+    .item1,
+    .items {
+        width: 800px;
+    }
+    }
+    
+    @media screen and (max-width: 850px) {
+    .nav-img {
+        height: 30px;
+    }
+    .nav-option {
+        gap: 30px;
+    }
+    .nav-option h3 {
+        font-size: 20px;
+    }
+    .report-topic-heading,
+    .item1,
+    .items {
+        width: 700px;
+    }
+    .navcontainer {
+        width: 100vw;
+        position: absolute;
+        transition: all 0.6s ease-in-out;
+        top: 0;
+        left: -100vw;
+    }
+    .nav {
+        width: 100%;
+        position: absolute;
+    }
+    .navclose {
+        left: 00px;
+    }
+    .searchbar {
+        display: none;
+    }
+    .main {
+        padding: 40px 30px 30px 30px;
+    }
+    .searchbar2 {
+        width: 100%;
+        display: flex;
+        margin: 0 0 40px 0;
+        justify-content: center;
+    }
+    .searchbar2 input {
+        width: 250px;
+        height: 42px;
+        border-radius: 50px 0 0 50px;
+        background-color: var(--background-color3);
+        padding: 0 20px;
+        font-size: 15px;
+        border: 2px solid var(--secondary-color);
+    }
+    }
+    
+    @media screen and (max-width: 490px) {
+    .message {
+        display: none;
+    }
+    .logosec {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .menuicn {
+        height: 25px;
+    }
+    .nav-img {
+        height: 25px;
+    }
+    .nav-option {
+        gap: 25px;
+    }
+    .nav-option h3 {
+        font-size: 12px;
+    }
+    .nav-upper-options {
+        gap: 15px;
+    }
+    .recent-Articles {
+        font-size: 20px;
+    }
+    .report-topic-heading,
+    .item1,
+    .items {
+        width: 550px;
+    }
+    }
+    
+    @media screen and (max-width: 400px) {
+    .recent-Articles {
+        font-size: 17px;
+    }
+    .view {
+        width: 60px;
+        font-size: 10px;
+        height: 27px;
+    }
+    .report-header {
+        height: 60px;
+        padding: 10px 10px 5px 10px;
+    }
+    .searchbtn img {
+        height: 20px;
+    }
+    }
+    
+    @media screen and (max-width: 320px) {
+    .recent-Articles {
+        font-size: 12px;
+    }
+    .view {
+        width: 50px;
+        font-size: 8px;
+        height: 27px;
+    }
+    .report-header {
+        height: 60px;
+        padding: 10px 5px 5px 5px;
+    }
+    .t-op {
+        font-size: 12px;
+    }
+    .t-op-nextlvl {
+        font-size: 10px;
+    }
+    .report-topic-heading,
+    .item1,
+    .items {
+        width: 300px;
+    }
+    .report-body {
+        padding: 10px;
+    }
+    .label-tag {
+        width: 70px;
+    }
+    .searchbtn {
+        width: 40px;
+    }
+    .searchbar2 input {
+        width: 180px;
+    }
+    }
+
+    /* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+}
+.container {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #027581;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.container header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+.container .form {
+  margin-top: 30px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box label {
+  color: #333;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+.form .gender-box {
+  margin-top: 20px;
+}
+.gender-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: rgb(130, 106, 251);
+}
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.gender label {
+  color: #707070;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #707070;
+  font-size: 1rem;
+}
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(255, 255, 255);
+}
+.form button:hover {
+  background: rgb(255, 255, 255);
+}
+/*Responsive*/
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}
+
+input[type=text], input[type=number] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #000000;
+    padding: 15px 25px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 5px;
+    width: 75%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+.submit{
+    background-color: #56baed;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  

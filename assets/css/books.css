@@ -1,0 +1,92 @@
+.labels,.SubHead {
+    font-weight: bold;
+  }
+
+
+  .fields {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .btn-success {
+    background-color: teal;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btn-clear {
+    background-color: teal;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 50%; 
+    margin: 0 auto;
+  }
+
+  .table tr {
+    margin-bottom: 10px;
+  }
+
+  .SubHead{
+    color: Green;
+    font-size: 25px;
+
+  }
+
+
+
+.styled-table th,
+.styled-table td {
+    padding: 15px ;
+}
+
+.styled-table {
+  width: 100%;
+}
+
+
+.styled-table th{
+  background-color: teal;
+  text-align: center;
+}
+
+.styled-table tbody tr {
+  text-align: center;
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+/* Style for the dropdown */
+.dropdown {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 5px;
+  width: auto;
+  font-size: 14px;
+  cursor: auto;
+}
+
